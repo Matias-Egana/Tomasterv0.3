@@ -52,6 +52,18 @@
         <Compile Include="Ingreso.Designer.cs">
           <DependentUpon>Ingreso.cs</DependentUpon>
         </Compile>
+        <Compile Include="MostrarTratamiento.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="MostrarTratamiento.Designer.cs">
+          <DependentUpon>MostrarTratamiento.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Pregunta.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="Pregunta.Designer.cs">
+          <DependentUpon>Pregunta.cs</DependentUpon>
+        </Compile>
         <Compile Include="Principal.cs">
           <SubType>Form</SubType>
         </Compile>
@@ -62,6 +74,12 @@
         <Compile Include="Properties\AssemblyInfo.cs" />
         <EmbeddedResource Include="Ingreso.resx">
           <DependentUpon>Ingreso.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="MostrarTratamiento.resx">
+          <DependentUpon>MostrarTratamiento.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Pregunta.resx">
+          <DependentUpon>Pregunta.cs</DependentUpon>
         </EmbeddedResource>
         <EmbeddedResource Include="Principal.resx">
           <DependentUpon>Principal.cs</DependentUpon>
