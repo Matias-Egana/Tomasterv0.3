@@ -9,6 +9,7 @@ namespace Tomaster_v0._3
         public Ingreso()
         {
             InitializeComponent();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)

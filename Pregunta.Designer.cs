@@ -69,9 +69,9 @@ namespace Tomaster_v0._3
             // 
             // bSiguiente
             // 
-            this.bSiguiente.Location = new System.Drawing.Point(601, 375);
+            this.bSiguiente.Location = new System.Drawing.Point(572, 375);
             this.bSiguiente.Name = "bSiguiente";
-            this.bSiguiente.Size = new System.Drawing.Size(112, 34);
+            this.bSiguiente.Size = new System.Drawing.Size(141, 34);
             this.bSiguiente.TabIndex = 3;
             this.bSiguiente.Text = "Siguiente";
             this.bSiguiente.UseVisualStyleBackColor = true;
