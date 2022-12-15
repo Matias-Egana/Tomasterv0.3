@@ -30,6 +30,7 @@ namespace Tomaster_v0._3
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.bIngresar = new System.Windows.Forms.Button();
@@ -38,17 +39,22 @@ namespace Tomaster_v0._3
             // 
             // label1
             // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(243, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(325, 70);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tomaster FM\r\n";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(26, 107);
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.Location = new System.Drawing.Point(25, 127);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(736, 91);
             this.label2.TabIndex = 1;
@@ -56,34 +62,41 @@ namespace Tomaster_v0._3
             // 
             // bIngresar
             // 
+            this.bIngresar.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.bIngresar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.bIngresar.Location = new System.Drawing.Point(434, 341);
             this.bIngresar.Name = "bIngresar";
             this.bIngresar.Size = new System.Drawing.Size(133, 46);
             this.bIngresar.TabIndex = 2;
             this.bIngresar.Text = "Ingresar\r\n";
-            this.bIngresar.UseVisualStyleBackColor = true;
+            this.bIngresar.UseVisualStyleBackColor = false;
             this.bIngresar.Click += new System.EventHandler(this.clickIngresar);
             // 
             // bHistorial
             // 
+            this.bHistorial.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.bHistorial.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.bHistorial.Location = new System.Drawing.Point(232, 341);
             this.bHistorial.Name = "bHistorial";
             this.bHistorial.Size = new System.Drawing.Size(138, 45);
             this.bHistorial.TabIndex = 3;
             this.bHistorial.Text = "Historial\r\n";
-            this.bHistorial.UseVisualStyleBackColor = true;
+            this.bHistorial.UseVisualStyleBackColor = false;
             this.bHistorial.Click += new System.EventHandler(this.clickHistorial);
             // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Tomaster_v0._3.Properties.Resources.tomater;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.bHistorial);
             this.Controls.Add(this.bIngresar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Principal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Principal";
             this.ResumeLayout(false);
         }

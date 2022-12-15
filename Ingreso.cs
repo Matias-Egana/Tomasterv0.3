@@ -14,12 +14,13 @@ namespace Tomaster_v0._3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //throw new System.NotImplementedException();
+            Pregunta p = new Pregunta();
+            p.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-           // throw new System.NotImplementedException();
+           Dispose();
         }
         
     }

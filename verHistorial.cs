@@ -3,16 +3,26 @@ using System.Windows.Forms;
 
 namespace Tomaster_v0._3
 {
-    public partial class ver_Historial : Form
+    public partial class verHistorial : Form
     {
-        public ver_Historial()
+        public verHistorial()
         {
             InitializeComponent();
         }
-        
+
+        private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+            
+        }
+
+        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+            
+        }
+
         private void clickVolver(object sender, EventArgs e)
         {
-            throw new System.NotImplementedException();
+            Dispose();
         }
     }
 }

@@ -18,6 +18,9 @@ namespace Tomaster_v0._3
 
         private void clickHistorial(object sender, EventArgs e)
         {
+            verHistorial vh = new verHistorial();
+            vh.ShowDialog();
         }
+        
     }
 }

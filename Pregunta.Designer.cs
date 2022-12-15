@@ -31,6 +31,7 @@ namespace Tomaster_v0._3
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pregunta));
             this.labelPregunta = new System.Windows.Forms.Label();
             this.rSi = new System.Windows.Forms.RadioButton();
             this.rNo = new System.Windows.Forms.RadioButton();
@@ -39,6 +40,8 @@ namespace Tomaster_v0._3
             // 
             // labelPregunta
             // 
+            this.labelPregunta.BackColor = System.Drawing.Color.Transparent;
+            this.labelPregunta.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.labelPregunta.Location = new System.Drawing.Point(24, 42);
             this.labelPregunta.Name = "labelPregunta";
             this.labelPregunta.Size = new System.Drawing.Size(689, 143);
@@ -47,46 +50,55 @@ namespace Tomaster_v0._3
             // 
             // rSi
             // 
-            this.rSi.Location = new System.Drawing.Point(55, 224);
+            this.rSi.BackColor = System.Drawing.Color.Transparent;
+            this.rSi.ForeColor = System.Drawing.Color.Black;
+            this.rSi.Location = new System.Drawing.Point(55, 229);
             this.rSi.Name = "rSi";
-            this.rSi.Size = new System.Drawing.Size(171, 41);
+            this.rSi.Size = new System.Drawing.Size(57, 36);
             this.rSi.TabIndex = 1;
             this.rSi.TabStop = true;
             this.rSi.Text = "Si";
-            this.rSi.UseVisualStyleBackColor = true;
+            this.rSi.UseVisualStyleBackColor = false;
             this.rSi.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // rNo
             // 
+            this.rNo.BackColor = System.Drawing.Color.Transparent;
+            this.rNo.ForeColor = System.Drawing.Color.Black;
             this.rNo.Location = new System.Drawing.Point(55, 295);
             this.rNo.Name = "rNo";
-            this.rNo.Size = new System.Drawing.Size(96, 32);
+            this.rNo.Size = new System.Drawing.Size(57, 32);
             this.rNo.TabIndex = 2;
             this.rNo.TabStop = true;
             this.rNo.Text = "No";
-            this.rNo.UseVisualStyleBackColor = true;
+            this.rNo.UseVisualStyleBackColor = false;
             this.rNo.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // bSiguiente
             // 
+            this.bSiguiente.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.bSiguiente.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.bSiguiente.Location = new System.Drawing.Point(572, 375);
             this.bSiguiente.Name = "bSiguiente";
             this.bSiguiente.Size = new System.Drawing.Size(141, 34);
             this.bSiguiente.TabIndex = 3;
             this.bSiguiente.Text = "Siguiente";
-            this.bSiguiente.UseVisualStyleBackColor = true;
+            this.bSiguiente.UseVisualStyleBackColor = false;
             this.bSiguiente.Click += new System.EventHandler(this.bSiguiente_Click);
             // 
             // Pregunta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Tomaster_v0._3.Properties.Resources.tomater;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.bSiguiente);
             this.Controls.Add(this.rNo);
             this.Controls.Add(this.rSi);
             this.Controls.Add(this.labelPregunta);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Pregunta";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pregunta";
             this.ResumeLayout(false);
         }

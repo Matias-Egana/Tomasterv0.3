@@ -3,6 +3,6 @@
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=Tomaster_0020v0_002E3_002FIngreso/@EntryIndexedValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=Tomaster_0020v0_002E3_002FMostrarTratamiento/@EntryIndexedValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=Tomaster_0020v0_002E3_002FPregunta/@EntryIndexedValue">False</s:Boolean>
-	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=Tomaster_0020v0_002E3_002FPrincipal/@EntryIndexedValue">False</s:Boolean>
-	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=Tomaster_0020v0_002E3_002FverHistorial/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=Tomaster_0020v0_002E3_002FPrincipal/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=Tomaster_0020v0_002E3_002FverHistorial/@EntryIndexedValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/Initialized/@EntryValue">True</s:Boolean></wpf:ResourceDictionary>
