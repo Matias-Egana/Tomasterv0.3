@@ -47,24 +47,23 @@ namespace Tomaster_v0._3
             this.label1.Size = new System.Drawing.Size(325, 70);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tomaster FM\r\n";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(25, 127);
+            this.label2.Location = new System.Drawing.Point(28, 175);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(736, 91);
+            this.label2.Size = new System.Drawing.Size(736, 164);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Sistema experto para la identificación y entrega del tratamiento ante una plaga o" + " enfermedad, referente al cultivo del tomate.\r\n";
+            this.label2.Text = "Sistema experto para la identificación y entrega del tratamiento ante una plaga o" + " enfermedad perteneciente exclusivamente al cultivo de tomate.\r\n";
             // 
             // bIngresar
             // 
             this.bIngresar.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.bIngresar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bIngresar.Location = new System.Drawing.Point(434, 341);
+            this.bIngresar.Location = new System.Drawing.Point(603, 425);
             this.bIngresar.Name = "bIngresar";
             this.bIngresar.Size = new System.Drawing.Size(133, 46);
             this.bIngresar.TabIndex = 2;
@@ -76,7 +75,7 @@ namespace Tomaster_v0._3
             // 
             this.bHistorial.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.bHistorial.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bHistorial.Location = new System.Drawing.Point(232, 341);
+            this.bHistorial.Location = new System.Drawing.Point(37, 425);
             this.bHistorial.Name = "bHistorial";
             this.bHistorial.Size = new System.Drawing.Size(138, 45);
             this.bHistorial.TabIndex = 3;
@@ -89,7 +88,7 @@ namespace Tomaster_v0._3
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Tomaster_v0._3.Properties.Resources.tomater;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 519);
             this.Controls.Add(this.bHistorial);
             this.Controls.Add(this.bIngresar);
             this.Controls.Add(this.label2);

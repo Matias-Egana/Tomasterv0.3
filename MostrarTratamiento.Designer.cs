@@ -127,7 +127,7 @@ namespace Tomaster_v0._3
             // 
             this.bAgregardataset.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.bAgregardataset.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bAgregardataset.Location = new System.Drawing.Point(640, 409);
+            this.bAgregardataset.Location = new System.Drawing.Point(588, 453);
             this.bAgregardataset.Name = "bAgregardataset";
             this.bAgregardataset.Size = new System.Drawing.Size(103, 37);
             this.bAgregardataset.TabIndex = 8;
@@ -140,7 +140,7 @@ namespace Tomaster_v0._3
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Tomaster_v0._3.Properties.Resources.tomater;
-            this.ClientSize = new System.Drawing.Size(800, 474);
+            this.ClientSize = new System.Drawing.Size(800, 519);
             this.Controls.Add(this.bAgregardataset);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.panelQui);

@@ -12,17 +12,17 @@ namespace Tomaster_v0._3
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-          //  throw new System.NotImplementedException();
+       
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-          //  throw new System.NotImplementedException();
+       
         }
 
         private void bSiguiente_Click(object sender, EventArgs e)
         {
-           // throw new System.NotImplementedException();
+       
         }
     }
 }

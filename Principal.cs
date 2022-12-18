@@ -11,15 +11,16 @@ namespace Tomaster_v0._3
         }
 
         private void clickIngresar(object sender, EventArgs e)
-        {
+        {    
+            this.Hide();
             Ingreso i = new Ingreso();
-            i.ShowDialog();
+            i.Show();
+
         }
 
         private void clickHistorial(object sender, EventArgs e)
         {
-            verHistorial vh = new verHistorial();
-            vh.ShowDialog();
+       
         }
         
     }

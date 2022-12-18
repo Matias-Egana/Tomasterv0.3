@@ -117,9 +117,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value>El presente prototipo "Tomaste FM", tiene como finalidad ser una herramienta de apoyo para agricultores independientes referentes exclusivamente al cultivo del tomate, que indique el correcto tratamiento a efectuar ante una determinda plaga o enfermedad.
-</value>
+  <data name="label3.Text" xml:space="preserve">
+    <value>El prototipo se encargará de indicar el tratamiento para las siguientes plagas:
+
+Polilla del Tomate(Tuta absoluta).
+Gusano del fruto.
+Gusano cortador de las chacras.
+Pulgones (duraznero,melón,alfalfa,solanáceas,ciruelo, papa).
+Trips(california,de la cebolla,negra de las flores).
+Ácaro bronceado del tomate.
+
+El prototipo se encargará de indicar el tratamiento para las siguientes enfermedades:
+
+Pudrición gris (Botritis cinerea).
+Marchitez por fusarium.
+Marchitez por verticillium.
+Pudrición negra (Alternaria alternata).
+Tizón temprano (Alternaria solani).
+Oidio (Leveillula taurica).</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

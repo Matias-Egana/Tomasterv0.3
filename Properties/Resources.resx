@@ -62,4 +62,13 @@
   <data name="tomater" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tomater.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="tomater1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tomater1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tomater2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tomater2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tomater11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tomater11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

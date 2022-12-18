@@ -22,7 +22,6 @@ namespace Tomaster_v0._3
 
         private void clickVolver(object sender, EventArgs e)
         {
-            Dispose();
         }
     }
 }

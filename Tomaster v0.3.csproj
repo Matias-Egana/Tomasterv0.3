@@ -125,8 +125,12 @@
         <None Include="App.config" />
     </ItemGroup>
     <ItemGroup>
+      <Content Include="Historial.txt" />
+      <Content Include="ImagenesConfirmacion\TutaAbsoluta.jpg" />
       <Content Include="Resources\tomater.jpg" />
       <Content Include="Resources\tomater1.jpg" />
+      <Content Include="Resources\tomater11.jpg" />
+      <Content Include="Resources\tomater2.jpg" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

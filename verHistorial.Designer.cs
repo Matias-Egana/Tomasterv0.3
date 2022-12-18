@@ -94,8 +94,8 @@ namespace Tomaster_v0._3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Tomaster_v0._3.Properties.Resources.tomater;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::Tomaster_v0._3.Properties.Resources.tomater11;
+            this.ClientSize = new System.Drawing.Size(723, 437);
             this.Controls.Add(this.bVolver);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
